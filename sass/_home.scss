@@ -3,31 +3,56 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-$carousel-control-color: $white;
-$carousel-control-width: 15%;
-$carousel-control-opacity: 0.5;
-$carousel-control-hover-opacity: 0.9;
-$carousel-control-transition: opacity 0.15s ease;
-
-$carousel-indicator-width: 30px;
-$carousel-indicator-height: 3px;
-$carousel-indicator-hit-area-height: 10px;
-$carousel-indicator-spacer: 3px;
-$carousel-indicator-opacity: 0.5;
-$carousel-indicator-active-bg: $white;
-$carousel-indicator-active-opacity: 1;
-$carousel-indicator-transition: opacity 0.6s ease;
-
-$carousel-caption-width: 70%;
-$carousel-caption-color: $white;
-$carousel-caption-padding-y: 1.25rem;
-$carousel-caption-spacer: 1.25rem;
-
-$carousel-control-icon-width: 2rem;
-
-$carousel-control-prev-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
-$carousel-control-next-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
-
-$carousel-transition-duration: 0.6s;
-$carousel-transition: transform $carousel-transition-duration ease-in-out; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)
+.container {
+  width: 80vw;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 250px);
+  gap: 20px;
+}
+.header {
+  font-size: 1em;
+  grid-column-start: 1;
+  grid-column-end: 9;
+  padding: 15px;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  color: #000;
+  font-family: roboto;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8);
+}
+.carousel slide {
+  background-color: rgb(0, 255, 255);
+}
+.h1 {
+  background-color: #1e00ca;
+}
+.p {
+  background-color: #a64eff;
+}
+.p1 {
+  background-color: #7568;
+}
+.box {
+  background-color: rgba(9, 118, 228, 0.6);
+}
+.footer {
+  background-color: rgb(250, 233, 0);
+}
+/* .financing1 {
+} */
+/* .financing2 {
+}
+.financing3 {
+}
+.financing4 {
+}
+.financing5 {
+}
+.financing6 {
+}
+.financing7 {
+}
+.financing8 {
+}
+ */
