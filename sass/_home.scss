@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.container {
+.container1 {
   width: 80vw;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
@@ -31,7 +31,7 @@
   background-color: #a64eff;
 }
 .p1 {
-  background-color: #7568;
+  background-color: rgba(255, 0, 128, 0.533);
 }
 .box {
   background-color: rgba(9, 118, 228, 0.6);
