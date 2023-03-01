@@ -1,0 +1,20 @@
+img {
+  width: 80px;
+  height: 80px;
+}
+
+.container-fluid {
+  background: repeating-linear-gradient(#8cbf3f, #f2cc0f, #8cbf3f, #9453a6, #f2cc0f);
+}
+
+.navbar {
+  padding-top: 0 !important;
+}
+
+.navlink {
+  font-family: "pattaya", sans-serif;
+  font-size: 1.8rem;
+  color: #0d0d0d;
+  padding-left: 1.5rem;
+  text-decoration: none;
+}/*# sourceMappingURL=NavBar2.css.map */
