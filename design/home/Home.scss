@@ -1,1 +1,48 @@
-@import "NavBar2";
+body {
+  background-image: linear-gradient($w, $g, $w, $p, $w, $g, $w, $p, $w);
+}
+.carousel-item img {
+  height: 40vw;
+}
+
+h1 {
+  color: #9453a6;
+}
+h5 {
+  font-family: $hp;
+  color: $p;
+  font-size: 1.3rem;
+}
+h4 {
+  font-family: $hfont;
+  font-size: 4rem;
+  color: $w;
+}
+
+.imgc {
+  object-fit: cover;
+  height: 8vh;
+}
+.card-body {
+  background-image: linear-gradient($w, $w, $w, $g, $w, $g, $w, $w, $w);
+}
+.card-text {
+  font-family: $hp;
+  font-size: 1.2rem;
+}
+.img-mobail {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .carousel {
+    display: none;
+  }
+
+  .img-mobail {
+    display: block;
+  }
+}
+.card {
+  margin: 0 auto;
+}
