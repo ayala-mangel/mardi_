@@ -1,1 +1,24 @@
 @import "NavBar2";
+
+img[src^="th"] {
+  width: 150px;
+  border: 1px solid #000;
+  display: block;
+  margin: 20px;
+  cursor: pointer;
+}
+
+img[src^="big"] {
+  width: 800px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: none;
+}
+
+img[src^="th"]:hover + img[src^="big"] {
+  display: block;
+}
