@@ -18,7 +18,12 @@ h4 {
   color: #f2f2f2;
 }
 
-.img {
+/* .img {
+  aspect-ratio: 16/9;
+  object-fit: cover;
+} */
+
+.picture {
   aspect-ratio: 16/9;
   object-fit: cover;
 }
