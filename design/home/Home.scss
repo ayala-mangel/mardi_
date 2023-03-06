@@ -17,8 +17,8 @@ h4 {
 }
 
 .img {
+  aspect-ratio: 16/9;
   object-fit: cover;
-  height: 8vh;
 }
 .card-body {
   background-image: $b;
