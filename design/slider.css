@@ -1,0 +1,8 @@
+.bg-carousel {
+  min-height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+.carousel-caption {
+  background-color: #0000007e;
+}
