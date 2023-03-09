@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="../design/navbar/NavBar2.css" />
     <link rel="stylesheet" href="../design/home/Home.css" />
     <link rel="stylesheet" href="../design/slider.css" />
-
+<link rel="stylesheet" href="../design/footer.css">
     <link rel="stylesheet" href="../design/grid.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -31,6 +31,7 @@
       @import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto+Serif:opsz@8..144&display=swap");
     </style>
 
+<script src="../javascript/cards.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -74,7 +75,6 @@
 
     <section>
       <div class="slider container-fluid">
-        <!-- slider -->
         <div
           id="carouselExampleDark"
           class="carousel carousel-dark slide"
@@ -187,15 +187,16 @@
         <img src="../image/זיקוקים.jpg" alt="" class="img-mobail w-100 h-75" />
       </div>
     </section>
-    <br /><br /><br />
+   
 
     <main class="container-fluid">
-      <div class="container justify-content-md-center" style="flex-wrap: wrap">
+      <!-- <div class="container"> -->
+      <div class="container justify-content-md-center">
+        <!-- <div class="text justify-content-md-center"> -->
         <div class="row px-4 mx-4">
           <div class="col-lg-4a col-sm-12" style="max-width: 25rem">
             <section>
               <h2>How to get there?</h2>
-              <br />
               <p>
                 From Israel fly to New York and from there on a direct flight to
                 Louis Armstrong Airport in Louisiana. From the airport there are
@@ -215,7 +216,6 @@
           <div class="col-lg-4a col-sm-12" style="max-width: 25rem">
             <section>
               <h2>Where do you live?</h2>
-
               <p>
                 During the carnival, many streets are closed to traffic (mainly
                 in the French Quarter), so it is recommended to choose the
@@ -244,7 +244,6 @@
           <div class="col-lg-4a col-sm-12" style="max-width: 25rem">
             <section>
               <h2>Where do you eat?</h2>
-              <br />
               <p>
                 It is advisable to reserve a place in the restaurants in
                 advance, because during the carnival they are full to the brim.
@@ -268,9 +267,133 @@
           </div>
         </div>
       </div>
+      <article class="container">
+        <div class="card">
+          <img
+            src="../image/ace hotel 2.jpg"
+            class="card-img-top"
+            alt="hotel"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Ace Hotel New Orleans</h5>
+            <p class="card-text">
+              Sits at the corner of Carondelet and Lafayette Street in a
+              beautiful 1928 Art Deco building, flanked by museums and galleries
+              in the city's culturally-vibrant Warehouse District.
+            </p>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary position-absolute bottom-0 mb-3" onclick="modalcards(0)">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="../image/the-ritz-carlton1.jpg"
+            class="card-img-top"
+            alt="hotel"
+          />
+          <div class="card-body">
+            <h5 class="card-title">The Ritz-Carlton New Orleans</h5>
+            <p class="card-text">
+             The Ritz -Carlton With world-class service, get VIP treatment
+            </p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary position-absolute bottom-0 mb-3" onclick="modalcards(1)">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="../image/museum-of-death.png"
+            class="card-img-top"
+            alt="hotel"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Museum of Death</h5>
+            <p class="card-text">
+             The world-famous Museum of Death is located in New Orleans' French Quarter.
+            </p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary position-absolute bottom-0 mb-3" onclick="modalcards(2)">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="../image/sheraton.jpg"
+            class="card-img-top"
+            alt="hotel"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Sheraton New Orleans Hotel</h5>
+            <p class="card-text">
+            Luxurious suites with 2, 3 and 4 bedrooms can be rented.
+            </p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary position-absolute bottom-0 mb-3" onclick="modalcards(3)">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="../image/PremiumParking.jpg"
+            class="card-img-top"
+            alt="hotel"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Premium Parking-P402</h5>
+            <p class="card-text">
+        The ideal place to enjoy festive drinks, fresh seafood and all your favorite Cajun and Creole dishes
+            </p>
+                       <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary position-absolute bottom-0 mb-3" onclick="modalcards(4)">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="../image/walkons.png"
+            class="card-img-top"
+            alt="hotel"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Walk-On's Bistreaux and Bar</h5>
+            <p class="card-text">
+              Fine dining restaurant of all styles and types
+            </p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary position-absolute bottom-0 mb-3" onclick="modalcards(5)">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="../image/louisiana1.jpg"
+            class="card-img-top"
+            alt="hotel"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Louisiana Children's Museums</h5>
+            <p class="card-text">
+A day camp at the Miami Children's Museum is an experience that promises to
+                            inspire creativity in children
+            </p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary position-absolute bottom-0 mb-3" onclick="modalcards(6)">Go somewhere</a>
+          </div>
+        <!-- </div> -->
+      </article>
+      <!-- </div> -->
 
-      <article class="container"></article>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                </div>
+                <a href="#" id="as" class="btn btn-dark mx-auto "
+                    style="width:10vw; height: 4vh; margin-bottom: 2vh;   background-color: #0d0d0d;
+  color: #f2cc0f;
+  border: #f2cc0f 1px solid;">visit</a>
+            </div>
+        </div>
+    </div>
     </main>
-    <footer class="container-fluid">by Ayala Mangel and Shifi Prag</footer>
+    <footer class="container-fluid">
+              <h5>&copy; Mardi-Gras 2022</h5>
+        <h6>by Ayala Mangel and Shifi Prag</h6>
+        <h6> <a href="Contact.html">For Contact: Click here</a>
+        </h6>
+    </footer>
   </body>
 </html>
