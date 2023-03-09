@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="../design/navbar/NavBar2.css" />
+    <link rel="stylesheet" href="../design/home/Home.css" />
+    <link rel="stylesheet" href="../design/slider.css" />
+
+    <link rel="stylesheet" href="../design/grid.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto+Serif:opsz@8..144&display=swap");
+    </style>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="container-fluid">
+      <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+          <div class="container">
+            <span class="navbar-brand cursor" href="#home"
+              ><img src="../image/logo.png" alt="logo"
+            /></span>
+            <button
+              class="navbar-toggler hamburger"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarColor02"
+              aria-controls="navbarColor02"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor02">
+              <ul class="navbar-nav me-auto">
+                <a class="navlink" aria-current="page" href="./html/home.html"
+                  >Home</a
+                >
+
+                <a class="navlink" href="./html/about.html">About</a>
+
+                <a class="navlink" href="./html/media.html">Media</a>
+
+                <a class="navlink" href="./html/faq.html">Faq</a>
+
+                <a class="navlink" href="./html/contant.html">Contant</a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <div class="slider container-fluid">
+        <!-- slider -->
+        <div
+          id="carouselExampleDark"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div
+                class="bg-carousel"
+                style="
+                  background-image: url(../image/hush-naidoo-jade-photography-w4sdEk6P44c-unsplash.jpg);
+                "
+              ></div>
+
+              <div class="carousel-caption d-none d-sm-block">
+                <h4>disguise</h4>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="bg-carousel"
+                style="background-image: url(../image/גלגל.jpg)"
+              ></div>
+
+              <div class="carousel-caption d-none d-sm-block">
+                <h4>Extreme and carnival experiences</h4>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="bg-carousel"
+                style="background-image: url(../image/זיקוקים.jpg)"
+              ></div>
+              <div class="carousel-caption d-none d-sm-block">
+                <h4>The party at the carnival</h4>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="bg-carousel"
+                style="background-image: url(../image/חוף\ ים.jpg)"
+              ></div>
+              <div class="carousel-caption d-none d-sm-block">
+                <h4>Calm and peace on the beach</h4>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="bg-carousel"
+                style="background-image: url(../image/סוסים\ לילדים\ .jpg)"
+              ></div>
+              <div class="carousel-caption d-none d-sm-block">
+                <h4>Activities and games for children</h4>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <img src="../image/זיקוקים.jpg" alt="" class="img-mobail w-100 h-75" />
+      </div>
+    </section>
+    <br /><br /><br />
+
+    <main class="container-fluid">
+      <div class="container justify-content-md-center" style="flex-wrap: wrap">
+        <div class="row px-4 mx-4">
+          <div class="col-lg-4a col-sm-12" style="max-width: 25rem">
+            <section>
+              <h2>How to get there?</h2>
+              <br />
+              <p>
+                From Israel fly to New York and from there on a direct flight to
+                Louis Armstrong Airport in Louisiana. From the airport there are
+                buses and taxis to New Orleans with high frequency. You can also
+                get there by rental car or bus from Chicago (1,500 kilometers),
+                Dallas (800 kilometers), Los Angeles (3,080 kilometers), Miami
+                (1,500 kilometers) and New York (2,130 kilometers). Details
+                about Greyhound buses, phone: 1-504-52475711 The train line
+                connecting Miami to Los Angeles passes through New Orleans three
+                times a
+              </p>
+            </section>
+          </div>
+        </div>
+        <br />
+        <div class="row px-4 mx-4">
+          <div class="col-lg-4a col-sm-12" style="max-width: 25rem">
+            <section>
+              <h2>Where do you live?</h2>
+
+              <p>
+                During the carnival, many streets are closed to traffic (mainly
+                in the French Quarter), so it is recommended to choose the
+                hotels closest to the center of the action and thus avoid the
+                need to travel by public transport. Some hotels offer special
+                packages for the occasion. The Maison Dupuy is two blocks from
+                Bourbon Street, one of the main centers of the festivities. The
+                hotel offers first-class accommodation, in well-equipped rooms
+                and with a variety of treats. Price: from 99 dollars for a
+                double room. Address: 1001 Rue Toulouse. Phone: +1-504-5868000.
+                The Dauphine Orleans Hotel is in the heart of the French Quarter
+                and offers 111 well-equipped and decorated guest rooms. Price:
+                from 149 dollars for a double room. Address: 415 Dauphine St..
+                Phone: 1-800-5217111. Provincial is a special hotel in the heart
+                of the French Quarter, built around a courtyard with two pools
+                and a patio of tropical vegetation. There are 94 rooms with air
+                conditioning, TV, hairdryer and antique furniture. price: Price:
+                from 119 dollars for a double room. Address: 1024 Rue Chartres.
+                Phone: +1-504-5814995.
+              </p>
+            </section>
+          </div>
+        </div>
+
+        <div class="row px-4 mx-4">
+          <div class="col-lg-4a col-sm-12" style="max-width: 25rem">
+            <section>
+              <h2>Where do you eat?</h2>
+              <br />
+              <p>
+                It is advisable to reserve a place in the restaurants in
+                advance, because during the carnival they are full to the brim.
+                Alternatively, you can make do with the food stalls scattered in
+                the streets or make your own sandwiches. Some of the restaurants
+                on the carnival route offer a package that includes a meal and a
+                place to watch the parades. Michaul's Restaurant offers a meal,
+                alcoholic drink and a viewing spot, from $95 per person.
+                Address: 840 St. Charles Ave. Phone: +1-504-5225517. Cannon's
+                Restaurant is at the starting point of the processions and
+                offers a buffet meal and a viewing spot for $50 per person.
+                Address: 4141 St. Charles Ave. Phone: +1-504-8913200. Palace
+                Cafe is a Cajun restaurant located at the entrance to the French
+                Quarter. In preparation for Mardi Gras, a special menu and
+                places to observe the processions are offered. Address: 605
+                Canal St.. Phone: +1-504-5231661/5218310. More info New Orleans
+                Tourist Information Office - Address: 1520 Sugar Bowl Drive.
+                Phone: +1-504-5665011. Fax: +1-504-5665021.
+              </p>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      <article class="container"></article>
+    </main>
+    <footer class="container-fluid">by Ayala Mangel and Shifi Prag</footer>
+  </body>
+</html>

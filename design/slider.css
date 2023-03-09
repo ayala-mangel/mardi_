@@ -1,8 +1,13 @@
 .bg-carousel {
-  min-height: 600px;
+  min-height: 400px;
   background-size: cover;
   background-position: center;
 }
 .carousel-caption {
   background-color: #0000007e;
+}
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  color: #f2f2f2;
 }

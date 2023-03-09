@@ -3,7 +3,7 @@ img {
   height: 80px;
 }
 
-.container-fluid {
+/* .container-fluid {
   background: repeating-linear-gradient(
     #8cbf3f,
     #f2cc0f,
@@ -11,18 +11,28 @@ img {
     #9453a6,
     #f2cc0f
   );
-}
+} */
 
-.navbar {
+/* .navbar {
   padding-top: 0 !important;
   position: relative !important;
   padding-left: 0 !important;
+} */
+
+.hamburger {
+  background-color: #9453a6;
 }
 
 .navlink {
   font-family: "pattaya", sans-serif;
   font-size: 1.8rem;
-  color: #0d0d0d;
-  padding-left: 1.5rem;
+  color: #9453a6;
+  padding: 0 1.5rem;
+  /* padding-left: 1.5rem; */
   text-decoration: none;
-} /*# sourceMappingURL=NavBar2.css.map */
+}
+
+.navlink:hover {
+  color: #f2cc0f;
+}
+/*# sourceMappingURL=NavBar2.css.map */
