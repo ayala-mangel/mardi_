@@ -4,10 +4,8 @@ main .container .boxOfbigImg {
   row-gap: 10px;
   column-gap: 10px;
   margin-bottom: 5rem;
-  flex-direction: row;
   justify-content: space-around;
-  align-items: center;
-  margin: 100px 10px;
+  margin-top: 5rem;
 }
 
 main .container img {
@@ -20,9 +18,7 @@ main .container img {
   cursor: pointer;
 }
 
-.container .boxOfsmallImgs img {
-  display: block;
-  margin: 0 auto;
+.container .boxOfsmallImg img {
   min-width: 400px;
   min-height: 400px;
   border: #0d0d0d 5px solid;
@@ -33,7 +29,6 @@ main .container img {
   width: 70px;
   opacity: 0.7;
   transition: opacity 0.4s ease;
-  margin: 2px;
 }
 
 .boxOfbigImg img:hover {
@@ -45,13 +40,9 @@ main .container img {
   row-gap: 10px;
   column-gap: 10px;
   margin-bottom: 5rem;
-  flex-direction: row;
   justify-content: space-around;
-  align-items: center;
 }
 iframe {
   border: #0d0d0d 3px solid;
   box-shadow: 5px 5px 8px 0.5px #0d0d0d52;
 }
-
-/*# sourceMappingURL=Media.css.map */

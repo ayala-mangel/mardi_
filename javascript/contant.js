@@ -8,7 +8,6 @@ document.getElementById("sumbit").addEventListener("click", function () {
   if (firstname.value == "") {
     error1.innerHTML = " * please enter your name!";
     error1.style.color = "red";
-    /* fname.focus(); */
   } else {
     error1.innerHTML = "";
   }
