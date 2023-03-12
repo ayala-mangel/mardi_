@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -8,8 +12,8 @@
       crossorigin="anonymous"
     />
 
-
-    <script defer
+    <script
+      defer
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
@@ -17,7 +21,9 @@
 
     <link rel="stylesheet" href="../design/navbar/NavBar2.css" />
     <link rel="stylesheet" href="../design/home/Home.css" />
-    <link rel="stylesheet" href="../design/slider.css">
+    <link rel="stylesheet" href="../design/slider.css" />
+<link rel="stylesheet" href="../design/footer.css">
+    <link rel="stylesheet" href="../design/grid.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,400 +31,314 @@
       @import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto+Serif:opsz@8..144&display=swap");
     </style>
 
-    <title>Home</title>
+<script src="../javascript/cards.js"></script>
+    <title>Document</title>
   </head>
   <body>
-    <!-- <div class="container1">
-      <header class="header">
-        rdfgchjnk g bjszdfghbjnm nbvh gy btgb bnh jtfyvghhyvg fgh ftvghkgb
-        ytguybjhb
-      </header>
-
-      <slider class="carousel slide">sdfgvhjn mv fgvhbjkhgybnjhn,njh c</slider>
-
-      <h1 class="h1">jbnmbvghjm mnjhnm</h1>
-
-      <p class="p">dfhvbnjbh huyybh nmn</p>
-      <p class="p1">yghkhnbjn ughjguygh gyhghb dgcfg;hjnm</p>
-      <div class="box">
-        <div class="financing1">Walk-On's Bistreaux and Bar</div>
-        <div class="financing2">Sheraton New Orleans Hotel</div>
-        <div class="financing3">Ace Hotel New Orleans</div>
-        <div class="financing4">The Ritz-Carlton, New Orleans</div>
-        <div class="financing5">Premium Parking - P402</div>
-        <div class="financing6">Louisiana Children's Museum</div>
-        <div class="financing7">Museum of Death</div>
-        <div class="financing8">Haunted Museum</div>
-      </div> -->
-
-    <header>
+    <header class="container-fluid">
       <nav class="navbar navbar-expand-md">
-        <div class="container-fluid">
-          <span class="navbar-brand cursor" href="#home"
-            ><img src="../image/logo.png" alt="logo"
-          /></span>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarColor02"
-            aria-controls="navbarColor02"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarColor02">
-            <ul class="navbar-nav me-auto">
-              <a class="navlink" aria-current="page" href="./html/home.html"
-                >Home</a>
-              <a class="navlink" href="./html/about.html">About</a>
-              <a class="navlink" href="./html/media.html">Media</a>
-    <a class="navlink" href="./html/faq.html">Faq</a>
-              <a class="navlink" href="./html/contant.html">Contant</a>
-            </ul>
+        
+          <div class="container">
+            <span class="navbar-brand cursor" href="home.html"
+              ><img src="../image/logo.png" alt="logo"
+            /></span>
+            <button
+              class="navbar-toggler hamburger"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarColor02"
+              aria-controls="navbarColor02"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor02">
+              <ul class="navbar-nav me-auto">
+                <a class="navlink" aria-current="page" href="home.html"
+                  >Home</a
+                >
+
+                <a class="navlink" href="about.html">About</a>
+
+                <a class="navlink" href="media.html">Media</a>
+
+                <a class="navlink" href="faq.html">Faq</a>
+
+                <a class="navlink" href="contant.html">Contant</a>
+              </ul>
+            </div>
           </div>
-        </div>
+      
       </nav>
     </header>
 
-<div class="slider container-fluid">
-      <div
-        id="carouselExampleDark"
-        class="carousel carousel-dark slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="3"
-            aria-label="Slide 4"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="4"
-            aria-label="Slide 5"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-          <!-- <div class="carousel-item active" data-bs-interval="5000"> -->
-            <div class="bg-carousel" alt="disguise" style="background-image: url(../image/hush-naidoo-jade-photography-w4sdEk6P44c-unsplash.jpg);"></div>
-            <!-- <img
-              src="../image/hush-naidoo-jade-photography-w4sdEk6P44c-unsplash.jpg"
-              class="d-block w-100 picture"
-              alt="disguise"/> -->
-            <div class="carousel-caption d-none d-sm-block">
-              <h4>disguise</h4>
-            </div>
+    <section>
+      <div class="slider container-fluid" alt="pictures slider">
+        <div
+          id="carouselExampleDark"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
           </div>
-          <div class="carousel-item">
-          <!-- <div class="carousel-item" data-bs-interval="2000"> -->
-            <div class="bg-carousel" alt="louisiana2" style="background-image: url(../image/גלגל.jpg);"></div>
-            <!-- <img
-              src="../image/גלגל.jpg"
-              class="d-block w-100 picture"
-              alt="louisiana2"
-            /> -->
-            <div class="carousel-caption d-none d-sm-block">
-              <h4>Extreme and carnival experiences</h4>
-            </div>
-          </div>
-          <div class="carousel-item">
-          <!-- <div class="carousel-item" data-bs-interval="2000"> -->
-            <div class="bg-carousel" style="background-image: url(../image/זיקוקים.jpg);"></div>
-            <!-- <img
-              src="../image/זיקוקים.jpg"
-              class="d-block w-100 picture"
-              alt="mardiGras2"
-            /> -->
-            <div class="carousel-caption d-none d-sm-block">
-              <h4>The party at the carnival</h4>
-            </div>
-          </div>
-          <div class="carousel-item">
-          <!-- <div class="carousel-item" data-bs-interval="2000"> -->
-            <div class="bg-carousel" style="background-image: url(../image/חוף\ ים.jpg);"></div>
-            <!-- <img src="../image/חוף ים.jpg" class="d-block w-100 picture" alt="img5" /> -->
-            <div class="carousel-caption d-none d-sm-block">
-              <h4>Calm and peace on the beach</h4>
-            </div>
-          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div
+                class="bg-carousel"
+                style="
+                  background-image: url(../image/hush-naidoo-jade-photography-w4sdEk6P44c-unsplash.jpg);
+                "
+              ></div>
 
-          <div class="carousel-item">
-          <!-- <div class="carousel-item" data-bs-interval="2000"> -->
-            <div class="bg-carousel" style="background-image: url(../image/סוסים\ לילדים\ .jpg);"></div>
-            <!-- <img
-              src="../image/סוסים לילדים .jpg"
-              class="d-block w-100 picture"
-              alt="lcmp_12"
-            /> -->
-            <div class="carousel-caption d-none d-sm-block">
-              <h4>Activities and games for children</h4>
+              <div class="carousel-caption d-none d-sm-block">
+                <h4>disguise</h4>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="bg-carousel"
+                style="background-image: url(../image/thomas-kinto-M9YN-JH9J5w-unsplash.jpg)"
+              ></div>
+
+              <div class="carousel-caption d-none d-sm-block">
+                <h4>Thomas-kinto</h4>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="bg-carousel"
+                style="background-image: url(../image/זיקוקים.jpg)"
+              ></div>
+              <div class="carousel-caption d-none d-sm-block">
+                <h4>The party at the carnival</h4>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="bg-carousel"
+                style="background-image: url(../image/mardi-yellow.jpg)"
+              ></div>
+              <div class="carousel-caption d-none d-sm-block">
+                <h4>Yellow truck in procession</h4>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="bg-carousel"
+                style="background-image: url(../image/סוסים\ לילדים\ .jpg)"
+              ></div>
+              <div class="carousel-caption d-none d-sm-block">
+                <h4>Activities and games for children</h4>
+              </div>
             </div>
           </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <img src="../image/pexels-mikhail-nilov-9393667.jpg" alt="" class="img-mobail w-100 h-75" />
       </div>
+    </section>
+   
 
-          <img src="../image/זיקוקים.jpg" alt="" class="img-mobail w-100 h-75">
-</div>
-          <br><br><br>
+    <main class="container-fluid">
+      <div class="container justify-content-md-center">
+        <div class="row px-4 mx-4">
+          <div class="col-lg-4a col-sm-12" style="max-width: 25rem">
+            <section>
+              <h2> Where are the best places for families to enjoy the fun?</h2>
+              <p>
+Although Mardi Gras is known as “the Greatest Free Show on Earth” and parades are free to view on public streets and boulevards, there’s nothing like having a clean restroom, free-flowing drinks and great New Orleans food close by ­­– not to mention a balcony view of the crowds below after the parades. Check out these great packages either on or near the parade route and in the French Quarter after the parades.
+Let the good times Nolé! All of the major Uptown parades pass directly in front Nolé Special Events Venue, conveniently located at 2001 St. Charles Ave. Watch the fun of Mardi Gras unfold from the Terrace Room windows of Nolé or enjoy reserved seating in their main area at the bar inside the venue.
 
- <div class="container1 justify-content-md-center" style="flex-wrap: wrap;">
-
-        <div class="row px-4 mx-4"
-            style="border:2px double black ; box-shadow: 10px 10px; font-family:'Roboto', sans-serif;">
-            <div class="col-lg-4a col-sm-12" style="max-width: 25rem">
-
-
-                <p>
-                    <br>
-                <h2>How to get there?</h2>
-                From Israel fly to New York and from there on a direct flight to Louis Armstrong Airport in
-                Louisiana.
-                From
-                the
-                airport
-                there are buses and taxis to New Orleans with high frequency.
-                You can also get there by rental car or bus from Chicago (1,500 kilometers), Dallas (800
-                kilometers),
-                Los
-                Angeles (3,080
-                kilometers), Miami (1,500 kilometers) and New York (2,130 kilometers). Details about Greyhound
-                buses,
-                phone:
-                1-504-52475711
-                The train line connecting Miami to Los Angeles passes through New Orleans three times a </p>
-            </div>
+Individual and group tickets are available. Packages include unlimited buffet, beer & wine, non-alcoholic drinks and unlimited usage of indoor restrooms. Group and individual packages available. Adult tickets from $75 per person. Prices will vary based on parade date.
+              </p>
+            </section>
+          </div>
         </div>
-        <div class="row px-4 mx-4 "
-            style="border:2px double black ; box-shadow: 10px 10px; font-family:'Roboto', sans-serif;">
-            <div class=" col-lg-4a col-sm-12" style="max-width: 25rem">
-                <br>
-                <p>
-                <h2>Where do you live?</h2>
-                During the carnival, many streets are closed to traffic (mainly in the French Quarter), so it is
-                recommended
-                to
-                choose
-                the hotels closest to the center of the action and thus avoid the need to travel by public
-                transport.
-                Some
-                hotels offer
-                special packages for the occasion.
-                The Maison Dupuy is two blocks from Bourbon Street, one of the main centers of the festivities.
-                The
-                hotel
-                offers
-                first-class accommodation, in well-equipped rooms and with a variety of treats. Price: from 99
-                dollars
-                for a
-                double
-                room. Address: 1001 Rue Toulouse. Phone: +1-504-5868000.
-
-                The Dauphine Orleans Hotel is in the heart of the French Quarter and offers 111 well-equipped
-                and
-                decorated
-                guest rooms.
-                Price: from 149 dollars for a double room. Address: 415 Dauphine St.. Phone: 1-800-5217111.
-
-                Provincial is a special hotel in the heart of the French Quarter, built around a courtyard with
-                two
-                pools
-                and a
-                patio of
-                tropical vegetation. There are 94 rooms with air conditioning, TV, hairdryer and antique
-                furniture.
-                price:
-                Price: from 119 dollars for a double room. Address: 1024 Rue Chartres. Phone: +1-504-5814995.
-                </p>
-            </div>
+        <br />
+        <div class="row px-4 mx-4">
+          <div class="col-lg-4a col-sm-12" style="max-width: 25rem">
+            <section>
+              <h2>Know The New Parade Rules</h2>
+              <p>
+The New Orleans City Council passed new Mardi Gras parade rules in early 2014. Be sure you know them before you head out to the parades to avoid tickets, and to avoid bringing a bunch of stuff that you'll just have to move later. The new rules are as follows:
+There can be no ladders or other personal effects, like grills and coolers, closer than 6 feet to the curb.
+Parking on Napoleon and St. Charles will be prohibited on BOTH sides of the neutral ground this year, not just the parade side, starting 2 hours before the parade.
+There is now a ban on roping off territory via chairs, tarps, or anything else if you are in the public right of way. This includes neutral ground and
+There can be no private portable toilets in the neutral ground or other public property.
+              </p>
+            </section>
+          </div>
         </div>
 
-        <div class="row px-4 mx-4"
-            style="border:2px double black ; box-shadow: 10px 10px; font-family:'Roboto', sans-serif;">
-            <div class="col-lg-4a col-sm-12" style="max-width: 25rem">
-                <br>
-                <p>
-                <h2>Where do you eat?</h2>
-                It is advisable to reserve a place in the restaurants in advance, because during the carnival
-                they are
-                full
-                to
-                the brim.
-                Alternatively, you can make do with the food stalls scattered in the streets or make your own
-                sandwiches.
-                Some of the restaurants on the carnival route offer a package that includes a meal and a place
-                to watch
-                the
-                parades.
-                Michaul's Restaurant offers a meal, alcoholic drink and a viewing spot, from $95 per person.
-                Address:
-                840
-                St.
-                Charles
-                Ave. Phone: +1-504-5225517.
-                Cannon's Restaurant is at the starting point of the processions and offers a buffet meal and a
-                viewing
-                spot
-                for
-                $50 per
-                person. Address: 4141 St. Charles Ave. Phone: +1-504-8913200.
-                Palace Cafe is a Cajun restaurant located at the entrance to the French Quarter. In preparation
-                for
-                Mardi
-                Gras,
-                a
-                special menu and places to observe the processions are offered. Address: 605 Canal St.. Phone:
-                +1-504-5231661/5218310.
-                More info
-                New Orleans Tourist Information Office - Address: 1520 Sugar Bowl Drive. Phone: +1-504-5665011.
-                Fax:
-                +1-504-5665021.</p>
-            </div>
+        <div class="row px-4 mx-4">
+          <div class="col-lg-4a col-sm-12" style="max-width: 25rem">
+            <section>
+              <h2>Plan Your Transportation</h2>
+              <p>
+If you are driving in for the day from a suburban hotel, remember that the French Quarter during Mardi Gras weekend is closed to vehicular traffic. Only French Quarter residents and hotel guests with special parking passes can get by the police barricades. Off-site commercial parking lots are expensive and fill up fast, so get there early! Make sure you know how far away your hotel will be and remember: There are surcharges with rideshares and taxicabs are more difficult to find at this time of year.
+
+It is a good idea to get a map of the city and study the areas you'll be visiting. New Orleans is a "checkerboard city" - safe neighborhoods can be within blocks of unsafe areas. Your hotel concierge or front desk can help you with route times, traffic and parking.
+
+If you stay in an outlying hotel, don't depend on them to supply you with transportation to the French Quarter or the parade routes. Although some have shuttles to New Orleans, they are often not in use during Mardi Gras season. Traffic during Carnival is unbelievably congested, and standard routes are often barricaded to redirect the traffic flow.
+
+              </p>
+            </section>
+          </div>
         </div>
-    </div>
-    </div>
-    </div><br><br>
-    <div class="container my-5">
-        <div class="row ">
-            <div class="col-lg-3 col-md-6 mb-5 ">
-                <div class="card" style="width: 19rem; height: 28rem;">
-                    <img src="../Images/sheraton.jpg" class="card-img-top" alt="..." class="imgc">
-                    <div class="card-body">
-                        <h5 class="card-title">Sheraton New Orleans Hotel</h5>
-                        <p class="card-text">Luxurious suites with 2, 3 and 4 bedrooms can be rented.</p>
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-dark position-absolute bottom-0
-                        mb-3" onclick="modalcards(0)">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5 ">
-                <div class="card" style="width: 19rem; height: 28rem;">
-                    <img src="../Images/museum-of-death.png" class="card-img-top" alt="..." class="imgc">
-                    <div class="card-body">
-                        <h5 class="card-title">Museum of Death</h5>
-                        <p class="card-text">The world-famous Museum of Death is located in New Orleans' French Quarter.
-                        </p>
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-dark position-absolute bottom-0
-mb-3" onclick="modalcards(1)">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5 ">
-                <div class="card" style="width: 19rem; height: 28rem;">
-                    <img src="../Images/the-ritz-carlton1.jpg" class="card-img-top" alt="..." class="imgc">
-                    <div class="card-body">
-                        <h5 class="card-title">The Ritz-Carlton New Orleans</h5>
-                        <p class="card-text">The Ritz -Carlton With world-class service, get VIP treatment</p>
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-dark position-absolute bottom-0
-mb-3" onclick="modalcards(2)">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5 ">
-                <div class="card" style="width: 19rem; height: 28rem;">
-                    <img src="../Images/walkons.png" class="card-img-top" alt="..." class="imgc">
-                    <div class="card-body">
-                        <h5 class="card-title">Walk-On's Bistreaux and Bar</h5>
-                        <p class="card-text">Fine dining restaurant of all styles and types</p>
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-dark position-absolute bottom-0
-mb-3" onclick="modalcards(3)">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mt-5 ">
-                <div class="card" style="width: 19rem; height: 28rem;">
-                    <img src="../Images/PremiumParking.jpg" class="card-img-top" alt="..." class="imgc">
-                    <div class="card-body">
-                        <h5 class="card-title">Premium Parking-P402</h5>
-                        <p class="card-text">The ideal place to enjoy festive drinks, fresh seafood and all your
-                            favorite Cajun and Creole dishes</p>
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-dark position-absolute bottom-0
-mb-3" onclick="modalcards(4)">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mt-5  ">
-                <div class="card" style="width: 19rem; height: 28rem;">
-                    <img src="../Images/louisiana1.jpg" class="card-img-top" alt="..." class="imgc">
-                    <div class="card-body">
-                        <h5 class="card-title">Louisiana Children's Museum</h5>
-                        <p class="card-text">A day camp at the Miami Children's Museum is an experience that promises to
-                            inspire creativity in children</p>
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-dark position-absolute bottom-0
-mb-3" onclick="modalcards(5)">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mt-5  ">
-                <div class="card" style="width: 19rem; height: 28rem;">
-                    <img src="../Images/haunted1.jpg" class="card-img-top" alt="..." class="imgc">
-                    <div class="card-body">
-                        <h5 class="card-title">Haunted Museum</h5>
-                        <p class="card-text">Tour the Haunted Museum in Las Vegas
-                            Join us for a spirited adventure through Zak Bagans The Haunted Museum in Las Vegas
-                        </p>
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-dark position-absolute bottom-0
-mb-3" onclick="modalcards(6)">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mt-5  ">
-                <div class="card" style="width: 19rem; height: 28rem;">
-                    <img src="../Images/ace hotel 2.jpg" class="card-img-top" alt="..." class="imgc">
-                    <div class="card-body">
-                        <h5 class="card-title">Ace Hotel New Orleans</h5>
-                        <p class="card-text">Sits at the corner of Carondelet and Lafayette Street in a beautiful 1928
-                            Art Deco building, flanked by museums and
-                            galleries in the city's culturally-vibrant Warehouse District.</p>
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-dark position-absolute bottom-0
-mb-3" onclick="modalcards(7)">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
+      </div>
+      <article class="container">
+        <div class="card">
+          <img
+            src="../image/ace hotel 2.jpg"
+            class="card-img-top"
+            alt="hotel"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Ace Hotel New Orleans</h5>
+            <p class="card-text">
+              Sits at the corner of Carondelet and Lafayette Street in a
+              beautiful 1928 Art Deco building, flanked by museums and galleries
+              in the city's culturally-vibrant Warehouse District.
+            </p>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary position-absolute bottom-0 mb-3" onclick="modalcards(0)">Go somewhere</a>
+          </div>
         </div>
-    </div>
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="card">
+          <img
+            src="../image/the-ritz-carlton1.jpg"
+            class="card-img-top"
+            alt="hotel"
+          />
+          <div class="card-body">
+            <h5 class="card-title">The Ritz-Carlton New Orleans</h5>
+            <p class="card-text">
+             The Ritz -Carlton With world-class service, get VIP treatment
+            </p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary position-absolute bottom-0 mb-3" onclick="modalcards(1)">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="../image/museum-of-death.png"
+            class="card-img-top"
+            alt="hotel"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Museum of Death</h5>
+            <p class="card-text">
+             The world-famous Museum of Death is located in New Orleans' French Quarter.
+            </p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary position-absolute bottom-0 mb-3" onclick="modalcards(2)">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="../image/sheraton.jpg"
+            class="card-img-top"
+            alt="hotel"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Sheraton New Orleans Hotel</h5>
+            <p class="card-text">
+            Luxurious suites with 2, 3 and 4 bedrooms can be rented.
+            </p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary position-absolute bottom-0 mb-3" onclick="modalcards(3)">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="../image/PremiumParking.jpg"
+            class="card-img-top"
+            alt="hotel"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Premium Parking-P402</h5>
+            <p class="card-text">
+        The ideal place to enjoy festive drinks, fresh seafood and all your favorite Cajun and Creole dishes
+            </p>
+                       <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary position-absolute bottom-0 mb-3" onclick="modalcards(4)">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="../image/walkons.png"
+            class="card-img-top"
+            alt="hotel"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Walk-On's Bistreaux and Bar</h5>
+            <p class="card-text">
+              Fine dining restaurant of all styles and types
+            </p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary position-absolute bottom-0 mb-3" onclick="modalcards(5)">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="../image/louisiana1.jpg"
+            class="card-img-top"
+            alt="hotel"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Louisiana Children's Museums</h5>
+            <p class="card-text">
+A day camp at the Miami Children's Museum is an experience that promises to
+                            inspire creativity in children
+            </p>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary position-absolute bottom-0 mb-3" onclick="modalcards(6)">Go somewhere</a>
+          </div>
+      </article>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
@@ -426,22 +346,20 @@ mb-3" onclick="modalcards(7)">Go somewhere</a>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    ...
                 </div>
                 <a href="#" id="as" class="btn btn-dark mx-auto "
-                    style="width:10vw; height: 4vh; margin-bottom: 2vh;">visit our website</a>
-
-      <!-- <button type="button" class="btn btn-dark mx-auto" style="width:10vw; height: 4vh; margin-bottom: 2vh;"
-                    onclick="btn()">Visit Our
-                    website</button> -->
-
-      </div>
+                    style="width:10vw; height: 4vh; margin-bottom: 2vh;   background-color: #0d0d0d;
+  color: #f2cc0f;
+  border: #f2cc0f 1px solid;">visit</a>
+            </div>
         </div>
-   <!-- </div> -->
-
-      <br /><br /><br />
-
-      <footer class="footer">by ayala mangel and shifi prag</footer>
     </div>
+    </main>
+    <footer class="container-fluid">
+              <h5>&copy; Mardi-Gras 2023</h5>
+        <h6>By Ayala Mangel & Shifi Prag</h6>
+        <h6> <a href="contant.html">For Contant: Click here</a>
+        </h6>
+    </footer>
   </body>
 </html>

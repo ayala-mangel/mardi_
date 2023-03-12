@@ -4,9 +4,113 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+ <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="stylesheet" href="../design/navbar/NavBar2.css" />
     <link rel="stylesheet" href="../design/contant/Contant.css" />
-    <title>Contant</title>
+<link rel="stylesheet" href="../design/footer.css">
+    <link rel="stylesheet" href="../design/grid.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto+Serif:opsz@8..144&display=swap");
+    </style>
+
+
+
+    <title>contant</title>
   </head>
-  <body></body>
+  <body>
+
+<header class="container-fluid">
+      <nav class="navbar navbar-expand-md">
+        
+          <div class="container">
+            <span class="navbar-brand cursor" href="#home"
+              ><img src="../image/logo.png" alt="logo"
+            /></span>
+            <button
+              class="navbar-toggler hamburger"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarColor02"
+              aria-controls="navbarColor02"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor02">
+              <ul class="navbar-nav me-auto">
+                <a class="navlink" aria-current="page" href="grid.html"
+                  >Home</a
+                >
+
+                <a class="navlink" href="about.html">About</a>
+
+                <a class="navlink" href="media.html">Media</a>
+
+                <a class="navlink" href="faq.html">Faq</a>
+
+                <a class="navlink" href="contant.html">Contant</a>
+              </ul>
+            </div>
+          </div>
+      
+      </nav>
+    </header>
+<main class="container-fluid">
+   <div class="container">
+        <form class="form col-md-6 mx-auto border p-2">
+            <label for="">Name:</label>
+            <input type="text" id="firstname" class="form-control" placeholder="Name">
+            <!-- <div class="form-check form-switch"> -->
+              <span id="error1" class="error"></span> <br>
+            <!-- </div> -->
+            <label for="">Last Name:</label>
+            <input type="text" id="lastname" class="form-control" placeholder="Last Name">
+            <!-- <div class="form-check form-switch"> -->
+               <span id="error2" class="error"></span> <br>
+        <!-- </div> -->
+          <label for="">e-mail</label><br />
+          <input type="text" id="email" class="form-control" placeholder="e-mail"/><br>
+          <!-- <div class="form-check form-switch"> -->
+           <span id="error3" class="error"></span> <br>
+           <!-- </div> -->
+       
+        <label>comment:</label>
+        <textarea class="form-control" rows="2"></textarea></textarea>
+        <br>
+        <input class="button" type="button" value="click" id="sumbit" />
+
+        </form>
+  </div>
+</main>
+
+
+    <footer class="container-fluid">
+              <h5>&copy; Mardi-Gras 2023</h5>
+        <h6>By Ayala Mangel & Shifi Prag</h6>
+        <h6> <a href="contant.html">For Contant: Click here</a>
+        </h6>
+    </footer>
+
+
+<script src="../javascript/contant.js"></script>
+
+  </body>
 </html>

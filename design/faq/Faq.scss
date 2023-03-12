@@ -1,1 +1,12 @@
 @import "NavBar2";
+
+.accordion-button.collapsed {
+  background-color: #f2cc0f;
+  color: #ffffff;
+}
+.accordion .accordion-button {
+  background-color: #9453a6;
+}
+.accordion .accordion-body {
+  background-color: #e71717;
+}

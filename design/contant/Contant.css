@@ -1,1 +1,36 @@
 /*# sourceMappingURL=Contant.css.map */
+main .container .form {
+  background-color: #f2f2f2c5;
+  border: #0d0d0d 3px solid;
+  box-shadow: 5px 5px 8px 0.5px #0d0d0d52;
+}
+
+.button {
+  width: 10vw;
+  font-family: "pattaya", sans-serif;
+  font-size: 1.2rem;
+  background-color: #0d0d0d;
+  color: #f2cc0f;
+  border: #f2cc0f 1px solid;
+}
+
+label {
+  color: #9453a6;
+  font-family: "Henny Penny", cursive;
+  font-size: 2rem;
+}
+
+.form-control {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+}
+
+.error {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+}
+
+.button:hover + .button:click {
+  background-color: #f2cc0f;
+  color: #0d0d0d;
+}

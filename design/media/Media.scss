@@ -1,24 +1,44 @@
-// @import "NavBar2";
+main .container .boxOfbigImg {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 10px;
+  margin-bottom: 5rem;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px 10px;
+}
 
-// img[src^="th"] {
-//   width: 150px;
-//   border: 1px solid #000;
-//   display: block;
-//   margin: 20px;
-//   cursor: pointer;
-// }
+main .container img {
+  min-height: 100px;
+  min-width: 100px;
+  object-fit: cover;
+}
 
-// img[src^="big"] {
-//   width: 800px;
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   right: 0;
-//   bottom: 0;
-//   margin: auto;
-//   display: none;
-// }
+.boxOfbigImg img {
+  cursor: pointer;
+}
 
-// img[src^="th"]:hover + img[src^="big"] {
-//   display: block;
-// }
+.container .boxOfsmallImgs img {
+  display: block;
+  margin: 0 auto;
+  min-width: 400px;
+  min-height: 400px;
+  border: #0d0d0d 5px solid;
+  box-shadow: 5px 5px 8px 0.5px #0d0d0d52;
+}
+
+.boxOfbigImg img {
+  width: 70px;
+  opacity: 0.7;
+  transition: opacity 0.4s ease;
+  margin: 2px;
+}
+
+.boxOfbigImg img:hover {
+  opacity: 1;
+}
+.media {
+  align-items: center;
+}

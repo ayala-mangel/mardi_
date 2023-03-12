@@ -4,7 +4,10 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #fff;
+  background-color: #f2cc0f44;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .container-fluid {
@@ -30,10 +33,6 @@ header .container {
   padding: 0;
 }
 
-main {
-  background-color: #f2cc0f44;
-}
-
 main .container {
   display: flex;
   flex-wrap: wrap;
@@ -41,18 +40,6 @@ main .container {
   padding-top: 8vh;
 }
 
-/* main .text {
-  display: flex;
-  flex-wrap: wrap;
-} */
-
 footer {
   background-color: #0d0d0d;
-}
-
-.center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
 }

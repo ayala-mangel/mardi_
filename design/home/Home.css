@@ -1,31 +1,10 @@
 /*# sourceMappingURL=Home.css.map */
 
-/* .carousel-item img {
-  height: 40vw;
-  margin-top: 80px;
-} */
-
-h1 {
-  color: #9453a6;
-}
-
-/* .img {
-  aspect-ratio: 16/9;
-  object-fit: cover;
-} */
-
-/* .picture {
-  aspect-ratio: 16/9;
-  object-fit: cover;
-} */
-
 .img-mobail {
   display: none;
 }
 
 main .row {
-  /* max-width: 30rem; */
-  /* min-height: 20rem; */
   background-color: #f2f2f2c5;
   border: #0d0d0d 3px solid;
   box-shadow: 5px 5px 8px 0.5px #0d0d0d52;
@@ -87,7 +66,4 @@ p {
   .img-mobail {
     display: block;
   }
-}
-.card {
-  margin: 0 auto;
 }

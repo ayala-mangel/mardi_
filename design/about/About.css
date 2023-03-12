@@ -1,20 +1,40 @@
-img {
-  width: 80px;
-  height: 80px;
+main .container .about-mardi {
+  max-width: 40rem;
+  background-color: #f2f2f2c5;
+  border: #0d0d0d 3px solid;
+  box-shadow: 5px 5px 8px 0.5px #0d0d0d52;
+  padding: 30px;
+  margin: 20px;
+}
+main .container .about-woman {
+  max-width: 40rem;
+  background-color: #f2f2f2c5;
+  border: #0d0d0d 3px solid;
+  box-shadow: 5px 5px 8px 0.5px #0d0d0d52;
+  padding: 30px;
+  margin: 20px;
 }
 
-.container-fluid {
-  background: repeating-linear-gradient(#8cbf3f, #f2cc0f, #8cbf3f, #9453a6, #f2cc0f);
+main .container h2 {
+  padding-top: 15px;
+  color: #9453a6;
+  font-family: "Henny Penny", cursive;
+  font-size: 2rem;
+  text-align: center;
 }
 
-.navbar {
-  padding-top: 0 !important;
+p {
+  padding-top: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+}
+main .container .about-woman img {
+  min-height: 275px;
+  min-width: 200px;
+  object-fit: cover;
+  display: block;
+  margin: auto auto;
+  border: #9453a6 3px solid;
 }
 
-.navlink {
-  font-family: "pattaya", sans-serif;
-  font-size: 1.8rem;
-  color: #0d0d0d;
-  padding-left: 1.5rem;
-  text-decoration: none;
-}/*# sourceMappingURL=About.css.map */
+/*# sourceMappingURL=About.css.map */

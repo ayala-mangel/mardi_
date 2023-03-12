@@ -1,55 +1,38 @@
-@import "../navbar/NavBar2.scss";
-
-.imgtext {
-  @media (max-width: 1500px) {
-    display: flex;
-    justify-content: center;
-  }
+main .container .about-mardi {
+  max-width: 40rem;
+  background-color: #f2f2f2c5;
+  border: #0d0d0d 3px solid;
+  box-shadow: 5px 5px 8px 0.5px #0d0d0d52;
+  padding: 30px;
+  margin: 20px;
+}
+main .container .about-woman {
+  max-width: 40rem;
+  background-color: #f2f2f2c5;
+  border: #0d0d0d 3px solid;
+  box-shadow: 5px 5px 8px 0.5px #0d0d0d52;
+  padding: 30px;
+  margin: 20px;
 }
 
-.imglatoya {
-  width: 450px;
-  height: 450px;
-  box-shadow: 10px 10px;
-  border-radius: 5px;
-  border: 5px solid black;
-  margin-top: 50px;
-
-  @media (min-width: 1500px) {
-    float: right;
-    margin-right: 130px;
-  }
-}
-
-.h1 {
-  font-family: $hfont;
-  text-align: center;
-  font: size 3rem;
-  margin: 0 auto;
-}
-
-h2 {
-  font-family: $pfont;
+main .container h2 {
+  padding-top: 15px;
+  color: #9453a6;
+  font-family: "Henny Penny", cursive;
   font-size: 2rem;
   text-align: center;
-  color: $p;
 }
 
-.section {
-  font-family: $pfont;
-  line-height: 2;
-  font-size: 1.3rem;
+p {
+  padding-top: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
 }
-
-.about {
-  border: 2px solid black;
-  box-shadow: 10px 10px;
-
-  padding: 15px 15px 15px 25px;
-  margin-top: 50px;
-
-  @media (min-width: 1500px) {
-    width: 50vw;
-    margin-left: 10%;
-  }
+main .container .about-woman img {
+  min-height: 275px;
+  min-width: 200px;
+  object-fit: cover;
+  display: block;
+  margin: auto auto;
+  border: #9453a6 3px solid;
 }

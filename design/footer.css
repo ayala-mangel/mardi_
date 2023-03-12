@@ -1,14 +1,19 @@
 footer {
   text-align: center;
+  margin-top: auto;
 }
 footer h5 {
   color: #9453a6;
   font-family: "pattaya", sans-serif;
   font-size: 2rem;
-  padding-top: 4vw;
+  padding-top: 2vw;
 }
 footer h6 {
   color: #8cbf3f;
   font-family: "Roboto", sans-serif;
   font-size: 1.8rem;
+}
+footer h6 a {
+  text-decoration: none;
+  color: #f2cc0f;
 }

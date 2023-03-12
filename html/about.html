@@ -4,62 +4,180 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="../design/navbar/NavBar2.css" /> -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto+Serif:opsz@8..144&display=swap");
+    </style>
+
+    <script src="../javascript/cards.js"></script>
+
+    <link rel="stylesheet" href="../design/navbar/NavBar2.css" />
+    <link rel="stylesheet" href="../design/footer.css" />
     <link rel="stylesheet" href="../design/about/About.css" />
+    <link rel="stylesheet" href="../design/grid.css" />
     <title>About</title>
   </head>
   <body>
-    <div class="about">
-      <h1 class="h1">MARDI GRAS</h1>
-      <article>
-        <h2>
-          Here you will get information about Mardi Gras? Where does it take
-          place? Led by whom
-        </h2>
-        <p>
-          Mardi Gras' holiday is celebrated throughout Louisiana, including the
-          city of New Orleans. The festivities are concentrated for about two
-          weeks before and during the week of Pentecost, the day before Ash
-          Wednesday (the beginning of borrowing in the Western Christian
-          tradition). There is usually one big parade each day (weather
-          permitting); Many days there are some big processions. The biggest and
-          most complex parades take place in the last five days of the Mardi
-          Gras season. In the past week, many events have taken place throughout
-          New Orleans and nearby communities, including processions and balls
-          (some of them masquerade). The parades in New Orleans are organized by
-          social clubs called Cruises; Most of them follow the schedule of the
-          same parade and route each year. The early Krewes based were the Krewe
-          Mistick of Comus, the earliest, Rex, the Knights of Mummus and the
-          Krewe of Proteus. Some modern "super-caravans" are known for holding
-          big parades and events, such as Carva from Andimion (known mainly for
-          celebrity names as great marshals for their processions), Carva from a
-          cup (also known as celebrities by the name of their kings), as well as
-          the Zulu Auxiliary Club -American mostly krewe. Floating riders
-          traditionally throw shots into the crowds. The most common injections
-          are strings of colored, double plastic beads, decorated plastic
-          "injection cups," moon pies, and small cheap toys, but injections can
-          also include lingerie and fainter items. Large groups keep track of
-          the procession and route schedule each year.While many tourists center
-          their carnival season activities on Bourbon Street and in New Orleans
-          Dauphin, large processions originated in the Uptown and Mid-City
-          counties and operated a route along St. Charles Avenue and Canal
-          Street, on the upstream side of the French Quarter. Mardi Gras day
-          traditionally ends with a "court meeting" between Rex and Komus. Some
-          information about the mayor: LaToya Cantrell, Mayor 62 of New Orleans
-          imposed A job continues May 7, 2018 Preceded by Mitch Landrio Member
-          of New Orleans City Council From District B on duty December 19, 2012
-          - May 7, 2018 Ahead of Stacey Jay Banks succeeded Personal Information
-          Laotoya Wilder was born April 3, 1972 (age 48) Los Angeles,
-          California, USA Democratic political party Spouse Jason Cantrell
-          Children 1 Education Xavier University of Louisiana (BA) Website
-          Official Website LaToya Cantrell (born April 3, 1972) is an American
-          politician who serves as the mayor of New Orleans, Louisiana, a
-          position she has held since May 7, 2018. Cantrell, a Democrat, is the
-          first black woman to serve in the position. Before becoming mayor,
-          Cantrell represented District B on New Orleans City Council from
-          2012-2018.
-        </p>
-      </article>
-    </div>
+    <header class="container-fluid">
+      <nav class="navbar navbar-expand-md">
+        <div class="container">
+          <span class="navbar-brand cursor" href="#home"
+            ><img src="../image/logo.png" alt="logo"
+          /></span>
+          <button
+            class="navbar-toggler hamburger"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarColor02"
+            aria-controls="navbarColor02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav me-auto">
+              <a class="navlink" aria-current="page" href="grid.html">Home</a>
+
+              <a class="navlink" href="about.html">About</a>
+
+              <a class="navlink" href="media.html">Media</a>
+
+              <a class="navlink" href="faq.html">Faq</a>
+
+              <a class="navlink" href="contant.html">Contant</a>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-fluid">
+      <section class="container justify-content-md-center">
+        <div class="about-mardi">
+          <h2>Here you will get information about Mardi Gras?</h2>
+          <p>
+            Mardi Gras' holiday is celebrated throughout Louisiana, including
+            the city of New Orleans. The festivities are concentrated for about
+            two weeks before and during the week of Pentecost, the day before
+            Ash Wednesday (the beginning of borrowing in the Western Christian
+            tradition). There is usually one big parade each day (weather
+            permitting); Many days there are some big processions. The biggest
+            and most complex parades take place in the last five days of the
+            Mardi Gras season. In the past week, many events have taken place
+            throughout New Orleans and nearby communities, including processions
+            and balls (some of them masquerade). The parades in New Orleans are
+            organized by social clubs called Cruises; Most of them follow the
+            schedule of the same parade and route each year. The early Krewes
+            based were the Krewe Mistick of Comus, the earliest, Rex, the
+            Knights of Mummus and the Krewe of Proteus. Some modern
+            "super-caravans" are known for holding big parades and events, such
+            as Carva from Andimion (known mainly for celebrity names as great
+            marshals for their processions), Carva from a cup (also known as
+            celebrities by the name of their kings), as well as the Zulu
+            Auxiliary Club -American mostly krewe. Floating riders traditionally
+            throw shots into the crowds. The most common injections are strings
+            of colored, double plastic beads, decorated plastic "injection
+            cups," moon pies, and small cheap toys, but injections can also
+            include lingerie and fainter items. Large groups keep track of the
+            procession and route schedule each year.While many tourists center
+            their carnival season activities on Bourbon Street and in New
+            Orleans Dauphin, large processions originated in the Uptown and
+            Mid-City counties and operated a route along St. Charles Avenue and
+            Canal Street, on the upstream side of the French Quarter. Mardi Gras
+            day traditionally ends with a "court meeting" between Rex and Komus.
+            Some information about the mayor: LaToya Cantrell, Mayor 62 of New
+            Orleans imposed A job continues May 7, 2018 Preceded by Mitch
+            Landrio Member of New Orleans City Council From District B on duty
+            December 19, 2012 - May 7, 2018 Ahead of Stacey Jay Banks succeeded
+            Personal Information Laotoya Wilder was born April 3, 1972 (age 48)
+            Los Angeles, California, USA Democratic political party Spouse Jason
+            Cantrell Children 1 Education Xavier University of Louisiana (BA)
+            Website Official Website LaToya Cantrell (born April 3, 1972) is an
+            American politician who serves as the mayor of New Orleans,
+            Louisiana, a position she has held since May 7, 2018. Cantrell, a
+            Democrat, is the first black woman to serve in the position. Before
+            becoming mayor, Cantrell represented District B on New Orleans City
+            Council from 2012-2018.
+          </p>
+        </div>
+        <div class="about-woman">
+          <h2>LaToya Cantrell</h2>
+          <img
+            src="../image/PopTech-_LaToya_Cantrell_(cropped).jpg"
+            alt="latoya cantrell"
+          />
+          <p>
+            LaToya Cantrell (née Wilder; born April 3, 1972) is an American
+            politician serving as the Mayor of New Orleans, Louisiana since May
+            7, 2018. A Democrat, Cantrell is the first woman to hold the office.
+            Before becoming mayor, Cantrell represented District B on the New
+            Orleans City Council from 2012–2018.
+            <br />
+
+            Early life and education Cantrell was born as LaToya Wilder in Los
+            Angeles. She moved to New Orleans in 1990 to attend Xavier
+            University of Louisiana, where she earned a BA in sociology. She
+            attended an executive training program at the Harvard Kennedy
+            School.
+            <br />
+
+            Broadmoor neighborhood work Cantrell returned to New Orleans in
+            1999, settling in the Broadmoor neighborhood. In 2003, she joined
+            the board of the Broadmoor Improvement Association and became
+            president of the association in 2004. After the 2005 levee failures
+            in Greater New Orleans following Hurricane Katrina, the Broadmoor
+            neighborhood flooded severely and remained mostly deserted for
+            months afterward. In early 2006, the Bring New Orleans Back
+            Commission, a blue-ribbon panel convened by then-mayor Ray Nagin,
+            released a recovery plan that called for Broadmoor and five other
+            New Orleans neighborhoods to be converted into greenspace. In her
+            role as president of the association, Cantrell worked with residents
+            and local religious leaders to organize opposition to the panel's
+            recommendation. She also helped enlist returning Broadmoor residents
+            in a six-month effort to write a recovery plan for the neighborhood.
+            <br />
+
+            Cantrell worked full time to implement Broadmoor's recovery plan
+            from 2006 through 2012. She and fellow residents formed the
+            Broadmoor School Board, overseeing the reopening and renovation of
+            the Andrew H. Wilson school. She served as a founding board member
+            of the Broadmoor Development Corporation, a community development
+            corporation that provided case management and other social services
+            for returning residents. She was involved with residents' efforts to
+            reopen Broadmoor's Rosa F. Keller Library, which won a $2 million
+            grant from the Carnegie Endowment. She created a partnership between
+            the Broadmoor Improvement Association and Church of the
+            Annunciation, which provided the neighborhood association with
+            office space and hosted volunteer groups. She also formed a
+            partnership between the Broadmoor Improvement Association and her
+            home parish, Blessed Trinity Catholic Church, to open the Broadmoor
+            Art and Wellness Center.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container-fluid">
+      <h5>&copy; Mardi-Gras 2023</h5>
+      <h6>By Ayala Mangel & Shifi Prag</h6>
+      <h6><a href="contant.html">For Contant: Click here</a></h6>
+    </footer>
   </body>
 </html>

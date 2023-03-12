@@ -4,70 +4,288 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="stylesheet" href="../design/navbar/NavBar2.css" />
     <link rel="stylesheet" href="../design/media/Media.css" />
-    <link rel="stylesheet" href="../design/media/grid.css" />
+    <link rel="stylesheet" href="../design/footer.css" />
+    <link rel="stylesheet" href="../design/grid.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto+Serif:opsz@8..144&display=swap");
+    </style>
+
+    <script src="../javascript/cards.js"></script>
+
     <title>Media</title>
   </head>
   <body>
-    <div class="grid-container">
-      <img
-        src="../image/cayetano-gil-T0tb5Olqkis-unsplash.jpg"
-        alt="picture"
-        class="grid-item grid-item1"
-        id="item1"
-        onclick="onItem1Click()"
-      />
-      <img
-        src="../image/haunted1.jpg"
-        alt="picture"
-        class="grid-item grid-item2"
-        id="item2"
-        onclick="onItem2Click()"
-      />
-      <img
-        src="../image/img2.jpeg"
-        alt="picture"
-        class="grid-item grid-item3"
-      />
-      <img src="../image/img4.jpg" alt="picture" class="grid-item grid-item4" />
+    <header class="container-fluid">
+      <nav class="navbar navbar-expand-md">
+        <div class="container">
+          <span class="navbar-brand cursor" href="#home"
+            ><img src="../image/logo.png" alt="logo"
+          /></span>
+          <button
+            class="navbar-toggler hamburger"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarColor02"
+            aria-controls="navbarColor02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav me-auto">
+              <a class="navlink" aria-current="page" href="grid.html">Home</a>
 
-      <img src="../image/img5.jpg" alt="picture" class="grid-item grid-item5" />
-      <img
-        src="../image/img10.jpg"
-        alt="picture"
-        class="grid-item grid-item6"
-      />
-      <img
-        src="../image/img17.jpg"
-        alt="picture"
-        class="grid-item grid-item7"
-      />
-      <img
-        src="../image/img27.jpg"
-        alt="picture"
-        class="grid-item grid-item8"
-      />
-      <img
-        src="../image/img21.jpg"
-        alt="picture"
-        class="grid-item grid-item9"
-      />
-      <img
-        src="../image/mana5280-tHrv3N2JCSo-unsplash.jpg"
-        alt="picture"
-        class="grid-item grid-item10"
-      />
-      <img
-        src="../image/pexels-hitesh-choudhary-1144283.jpg"
-        alt="picture"
-        class="grid-item grid-item11"
-      />
-      <img
-        src="../image/ace hotel 2.jpg"
-        alt="picture"
-        class="grid-item grid-item12"
-      />
-    </div>
+              <a class="navlink" href="about.html">About</a>
+
+              <a class="navlink" href="media.html">Media</a>
+
+              <a class="navlink" href="faq.html">Faq</a>
+
+              <a class="navlink" href="contant.html">Contant</a>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-fluid">
+      <div class="container">
+        <div class="boxOfsmallImgs">
+          <div class="Slide">
+            <div class="numbertext"></div>
+            <img
+              src="../image/cayetano-gil-T0tb5Olqkis-unsplash.jpg"
+              alt="picture"
+              class="grid-item grid-item1"
+              id="item1"
+            />
+          </div>
+          <div class="Slide">
+            <div class="numbertext"></div>
+            <img
+              src="../image/haunted1.jpg"
+              alt="picture"
+              class="grid-item grid-item2"
+              id="item2"
+            />
+          </div>
+          <div class="Slide">
+            <div class="numbertext"></div>
+            <img
+              src="../image/img2.jpeg"
+              alt="picture"
+              class="grid-item grid-item3"
+            />
+          </div>
+          <div class="Slide">
+            <div class="numbertext"></div>
+            <img
+              src="../image/img4.jpg"
+              alt="picture"
+              class="grid-item grid-item4"
+            />
+          </div>
+          <div class="Slide">
+            <div class="numbertext"></div>
+            <img
+              src="../image/img5.jpg"
+              alt="picture"
+              class="grid-item grid-item5"
+            />
+          </div>
+          <div class="Slide">
+            <div class="numbertext"></div>
+            <img
+              src="../image/img10.jpg"
+              alt="picture"
+              class="grid-item grid-item6"
+            />
+          </div>
+          <div class="Slide">
+            <div class="numbertext"></div>
+
+            <img
+              src="../image/img17.jpg"
+              alt="picture"
+              class="grid-item grid-item7"
+            />
+          </div>
+          <div class="Slide">
+            <div class="numbertext"></div>
+
+            <img
+              src="../image/img27.jpg"
+              alt="picture"
+              class="grid-item grid-item8"
+            />
+          </div>
+          <div class="Slide">
+            <div class="numbertext"></div>
+
+            <img
+              src="../image/img21.jpg"
+              alt="picture"
+              class="grid-item grid-item9"
+            />
+          </div>
+          <div class="Slide">
+            <div class="numbertext"></div>
+
+            <img
+              src="../image/mana5280-tHrv3N2JCSo-unsplash.jpg"
+              alt="picture"
+              class="grid-item grid-item10"
+            />
+          </div>
+          <div class="Slide">
+            <div class="numbertext"></div>
+
+            <img
+              src="../image/pexels-hitesh-choudhary-1144283.jpg"
+              alt="picture"
+              class="grid-item grid-item11"
+            />
+          </div>
+          <div class="Slide">
+            <div class="numbertext"></div>
+            <img
+              src="../image/ace hotel 2.jpg"
+              alt="picture"
+              class="grid-item grid-item12"
+            />
+          </div>
+        </div>
+
+        <div class="boxOfbigImg">
+          <img
+            src="../image/cayetano-gil-T0tb5Olqkis-unsplash.jpg"
+            alt="picture"
+            class="big-img"
+            id="item1"
+            onclick="currentSlide(1)"
+          />
+          <img
+            src="../image/haunted1.jpg"
+            alt="picture"
+            class="big-img"
+            id="item2"
+            onclick="currentSlide(2)"
+          />
+          <img
+            src="../image/img2.jpeg"
+            alt="picture"
+            class="big-img"
+            onclick="currentSlide(3)"
+          />
+          <img
+            src="../image/img4.jpg"
+            alt="picture"
+            class="big-img"
+            onclick="currentSlide(4)"
+          />
+
+          <img
+            src="../image/img5.jpg"
+            alt="picture"
+            class="big-img"
+            onclick="currentSlide(5)"
+          />
+          <img
+            src="../image/img10.jpg"
+            alt="picture"
+            class="big-img"
+            onclick="currentSlide(6)"
+          />
+          <img
+            src="../image/img17.jpg"
+            alt="picture"
+            class="big-img"
+            onclick="currentSlide(7)"
+          />
+          <img
+            src="../image/img27.jpg"
+            alt="picture"
+            class="big-img"
+            onclick="currentSlide(8)"
+          />
+          <img
+            src="../image/img21.jpg"
+            alt="picture"
+            class="big-img"
+            onclick="currentSlide(9)"
+          />
+          <img
+            src="../image/mana5280-tHrv3N2JCSo-unsplash.jpg"
+            alt="picture"
+            class="big-img"
+            onclick="currentSlide(10)"
+          />
+          <img
+            src="../image/pexels-hitesh-choudhary-1144283.jpg"
+            alt="picture"
+            class="big-img"
+            onclick="currentSlide(11)"
+          />
+          <img
+            src="../image/ace hotel 2.jpg"
+            alt="picture"
+            class="big-img"
+            onclick="currentSlide(12)"
+          />
+        </div>
+
+        <!-- </div> -->
+
+        <div class="media">
+          <iframe
+            width="400"
+            height="290"
+            src="https://www.youtube.com/embed/IyNC72zZbdo"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+
+          <iframe
+            width="400"
+            height="290"
+            src="https://www.youtube.com/embed/V1V_7Lg5hDI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </main>
+
+    <footer class="container-fluid">
+      <h5>&copy; Mardi-Gras 2023</h5>
+      <h6>By Ayala Mangel & Shifi Prag</h6>
+      <h6><a href="contant.html">For Contant: Click here</a></h6>
+    </footer>
+
+    <script src="../javascript/media.js"></script>
   </body>
 </html>
